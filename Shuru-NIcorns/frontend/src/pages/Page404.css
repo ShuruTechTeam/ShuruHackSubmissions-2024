@@ -1,0 +1,26 @@
+/* Page404.css */
+/* @keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.rotating-image {
+  width: 200px; /* Adjust the size as needed */
+  /* animation: rotate 5s linear infinite; */
+}
+
+.page{
+  /* background: url('./background.svg') no-repeat center center fixed;
+  background-size: cover;*/
+  height: 100vh; 
+  background-color: black;
+}
+
+.page img{
+  margin-top: 150px;
+  margin-left:43%;
+}

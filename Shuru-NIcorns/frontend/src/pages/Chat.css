@@ -1,0 +1,70 @@
+.chat-container{
+  /* max-width: 1000px;
+  width: 1000px;
+  height: 100vh; */
+
+
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+  width: 60%;
+  /* background-color: black; */
+  /* border-top: 1px solid orange; */
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  align-items: center;
+  z-index: 1;
+}
+
+.single{
+  background: url('./background.svg') no-repeat center center fixed;
+  background-size: cover;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.send-button{
+  height: 40px;
+  background-color: #fff;
+  margin-left: 10px;
+}
+
+/* Add this to your Chat.css file */
+.chat-history {
+  /* existing styles */
+  /* max-height: 70vh; */
+  max-height: calc(100vh - 200px); 
+  overflow-y: auto;
+  padding: 10px;
+  border-radius: 10px;
+  flex-grow: 1;
+  margin-bottom:70px;
+
+ 
+  
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.chat-history::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.chat-history {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* .send-button {
+  
+  color: white;
+} */
+
+

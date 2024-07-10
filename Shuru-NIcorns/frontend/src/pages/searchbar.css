@@ -1,0 +1,48 @@
+.searchBox {
+  display: flex;
+  max-width: 600px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: #05050561;
+  border-radius: 50px;
+  position: relative;
+  margin-top: 2.2rem;
+}
+
+.searchButton {
+  color: orange;
+  position: absolute;
+  right: 8px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  border: 1px solid white; /* Fix border style */
+  display: inline-block;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+/* Hover effect */
+.searchButton:hover {
+  color: orange;
+  border: 1px solid orange; /* Adjust border style on hover */
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+  transform: translateY(-3px);
+}
+
+/* Button pressing effect */
+.searchButton:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.searchInput {
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  padding: 24px 46px 24px 26px;
+}
