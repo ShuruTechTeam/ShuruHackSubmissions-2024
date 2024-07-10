@@ -1,0 +1,10 @@
+# CODEOWNERS file for frontend and backend folders
+
+# Frontend folder ownership
+frontend/*   @hardeepmty @KaushikDash04 @Rapid-merc @Swapnita06 @priyadarshini004
+
+# Backend folder ownership
+backend/*    @hardeepmty @KaushikDash04 @Rapid-merc @Swapnita06 @priyadarshini004
+
+# Default ownership for any other files not matched above
+*            @hardeepmty @KaushikDash04 @Rapid-merc @Swapnita06 @priyadarshini004

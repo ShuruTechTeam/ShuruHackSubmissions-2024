@@ -1,0 +1,25 @@
+.login{
+  background: url('./background.svg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Login.css */
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.login button {
+  margin-top: 20px; /* Optional: add some space between the Typography and the button */
+  color: rgba(255, 255, 255, 0.711);
+}
+
+.login button:hover{
+  cursor: pointer;
+  color: white;
+  background-color: #e0181866;
+}
